@@ -1,4 +1,5 @@
 function [path_stim,k_stim,l_stim,g_stim_abs,g_stim,Y_stim] = ch_estimation(N,M,n_rx,n_tx,Y,th,l_max,k_max,kp,lp_vec,xp)
+% Function that 
 Z = exp((2 * pi * 1j)/(N * M));
 xp = xp*ones(1,n_tx);
 
